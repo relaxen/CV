@@ -303,12 +303,18 @@ body {
 .right-side__title-text {
   background: no-repeat -webkit-gradient(linear, left top, right top, from(#aea4e3), to(#5611ec));
   background: no-repeat linear-gradient(90deg, #aea4e3, #5611ec);
-  padding: 6px 6px 6px 15px;
+  padding: 6px 6px 6px 10px;
   border-radius: 20px;
   line-height: 120%;
   color: #fff;
   width: 40%;
   text-transform: uppercase;
+}
+
+@media (min-width: 767px) {
+  .right-side__title-text {
+    padding-left: 15px;
+  }
 }
 
 .right-side__title-border {

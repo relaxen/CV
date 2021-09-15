@@ -208,12 +208,15 @@ body {
 
 	&__title-text {
 		background: no-repeat linear-gradient(90deg, #aea4e3, #5611ec);
-		padding: 6px 6px 6px 15px;
+		padding: 6px 6px 6px 10px;
 		border-radius: 20px;
 		line-height: 120%;
 		color: #fff;
 		width: 40%;
 		text-transform: uppercase;
+		@media (min-width: 767px) {
+			padding-left: 15px;
+		}
 	}
 
 	// .right-side__title-border
