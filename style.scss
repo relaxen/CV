@@ -181,7 +181,7 @@ body {
 
 .right-side {
 	padding: 20px;
-	margin-left: 20px;
+	margin-top: 20px;
 	flex: 0 0 calc(70% - 20px);
 	background: #fff;
 	//rgba(131, 131, 131, 0.4);
@@ -190,6 +190,8 @@ body {
 	//color: #fff;
 	@media (min-width: 767px) {
 		border-radius: 20px;
+		margin-left: 20px;
+		margin-top: 0px;
 	}
 
 	// .right-side__title
