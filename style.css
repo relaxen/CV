@@ -266,6 +266,10 @@ body {
           flex: 0 0 40%;
 }
 
+.experience {
+  margin-top: 20px;
+}
+
 .experience__item {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -342,6 +346,11 @@ body {
 .projects__item {
   list-style: disc;
   margin-left: 39px;
+  margin-bottom: 10px;
+}
+
+.projects__item .right-side__description {
+  margin-top: 5px;
 }
 
 .projects__item a {

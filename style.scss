@@ -171,7 +171,7 @@ body {
 }
 .experience {
 	// .experience__item
-
+	margin-top: 20px;
 	&__item {
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -253,6 +253,10 @@ body {
 .projects__item {
 	list-style: disc;
 	margin-left: 39px;
+	margin-bottom: 10px;
+	.right-side__description {
+		margin-top: 5px;
+	}
 	a {
 		display: block;
 		margin-top: 10px;
