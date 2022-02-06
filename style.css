@@ -300,7 +300,7 @@ body {
   line-height: 120%;
 }
 
-.right-side__title span:first-child {
+.right-side__title span:first-child:not(#mounths) {
   font-weight: 500;
 }
 
