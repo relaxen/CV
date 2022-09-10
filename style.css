@@ -119,9 +119,18 @@ body {
   }
 }
 
+@media (min-width: 794px) and (max-width: 795px) {
+  .wrapper {
+    margin: 0 20px;
+    width: calc(100% - 40px);
+    max-width: none;
+  }
+}
+
 @media screen and (min-width: 1279px) {
   .wrapper {
     max-width: 1000px;
+    width: 210mm;
   }
 }
 
@@ -292,10 +301,6 @@ body {
           flex: 0 0 40%;
 }
 
-.experience {
-  margin-top: 20px;
-}
-
 .experience__item {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -305,9 +310,6 @@ body {
 .right-side {
   padding: 20px;
   margin-top: 20px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(70% - 20px);
-          flex: 0 0 calc(70% - 20px);
   background: #fff;
   overflow: hidden;
   border-radius: 16px;
@@ -316,8 +318,14 @@ body {
 @media (min-width: 767px) {
   .right-side {
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 12px;
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .right-side {
+    margin-left: 20px;
   }
 }
 
@@ -369,10 +377,14 @@ body {
   line-height: 110%;
 }
 
+.projects {
+  margin-top: 20px;
+}
+
 .projects__item {
   list-style: disc;
   margin-left: 39px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .projects__item .right-side__description {
@@ -383,5 +395,6 @@ body {
   display: block;
   margin-top: 10px;
   color: #5611ec;
+  word-break: break-all;
 }
 /*# sourceMappingURL=style.css.map */
