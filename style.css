@@ -334,7 +334,7 @@ body {
   line-height: 120%;
 }
 
-.right-side__title span:first-child:not(#mounths) {
+.right-side__title > span:first-child:not(.right-side__date) {
   font-weight: 500;
 }
 

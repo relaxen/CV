@@ -249,7 +249,7 @@ body {
       position: relative;
       line-height: 120%;
 
-      & span:first-child:not(#mounths) {
+      &>span:first-child:not(.right-side__date) {
          font-weight: 500;
       }
    }
